@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+.background{
+    background-image: url("images/spices.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+.center{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-style: double;
+    border-width: 15px;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-image{
+    
+    border-color: gold;
+    border-radius: 20px;
+}
+.recipe1-img{
+    border-color: rgb(52, 146, 72);
+    border-radius: 50%;
+ 
+}
+
+.recipe2-img{
+    border-color: rgb(35, 132, 189);
+    border-radius: 50%;
+}
+
+.recipe3-img{
+    border-color: rgb(95, 4, 95);
+    border-radius: 50%;
+}
+
+footer{
+    background-color: gray;
+    padding: 10px;
+}
+
+p{
+    margin: 0;
+}
+
+  
